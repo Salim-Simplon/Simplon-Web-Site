@@ -1,0 +1,51 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  border-top: crimson solid;
+  height: 200px;
+  text-align: center;
+  font-family: fantasy;
+  line-height: 20px;
+  font-size: medium;
+  bottom: "0";
+  box-shadow: -6px -6px 12px #221313;
+}
+
+.contact,
+.suivre,
+.news {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 300px;
+  height: 200px;
+}
+
+.contact {
+  border-right: rgb(204, 204, 226) solid;
+}
+
+.news {
+  border-left: rgb(204, 204, 226) solid;
+}
+
+#btn {
+  background-color: crimson;
+  color: white;
+  border: crimson solid;
+  margin-left: 2%;
+}
+
+.espace {
+  margin-top: 15%;
+}
+
+img {
+  width: 16%;
+}
+
+#fb {
+  width: 17%;
+  margin-right: 10px;
+}
