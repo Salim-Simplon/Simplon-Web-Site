@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import Testimonies from "./Testimonies/Testimonies";
 function App() {
   return (
     <div className="App">
