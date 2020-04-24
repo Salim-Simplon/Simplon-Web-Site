@@ -2,10 +2,9 @@ footer {
   display: flex;
   flex-direction: row;
   border-top: crimson solid;
-  height: 200px;
+  line-height: 22px;
   text-align: center;
   font-family: fantasy;
-  line-height: 20px;
   font-size: medium;
   bottom: "0";
   box-shadow: -6px -6px 12px #221313;
@@ -14,20 +13,21 @@ footer {
 .contact,
 .suivre,
 .news {
-  display: flex;
-  flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
   width: 300px;
-  height: 200px;
+  height: 120px;
 }
-
-.contact {
-  border-right: rgb(204, 204, 226) solid;
-}
-
 .news {
+line-height: 0px;
+margin-top: 1.5%;
+}
+
+.suivre {
   border-left: rgb(204, 204, 226) solid;
+  border-right: rgb(204, 204, 226) solid;
 }
 
 #btn {
@@ -37,15 +37,37 @@ footer {
   margin-left: 2%;
 }
 
-.espace {
-  margin-top: 15%;
-}
-
 img {
-  width: 16%;
+  width: 12%;
+  padding-bottom: 1%;
 }
 
 #fb {
-  width: 17%;
+  width: 12%;
   margin-right: 10px;
+}
+
+#logo{
+  width: 15%;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+  .contact,
+.suivre,
+.news {
+  align-items: center;
+  width: 90%;
+  height: 0%;
+}
+.suivre {
+  border-left:none;
+  border-right: none;
+}
+.news {
+  margin-top: -1%;
+  }
 }

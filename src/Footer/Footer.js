@@ -21,6 +21,9 @@ function Follow() {
       <div className="espace">Horaires d'ouverture :</div>
       <div> de lundi à vendredi </div>
       <div> de 9h à 17h</div>
+      <div><a href="#">
+            <img id="logo" src="/images/logo.png" alt="simplon" />
+          </a></div>
     </div>
   );
 }
