@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonies.css";
-import tem from "./image/tem.jpg";
+import tem from "../image/tem.jpg";
 function Testimonies() {
   return (
     <div className="testimonies-section">
