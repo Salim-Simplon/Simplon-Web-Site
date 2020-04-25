@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./Navbar/navbar.css"
+import  Navbar from "./Navbar/navbar";
+import "./Nos Valeur/notrevaleur.css"
+import NosValeur from "./Nos Valeur/notrevaleur";
+import "./Reseau sociaux/reseau.css"
+import Reseau from "./Reseau sociaux/reseau"
+
+
+
+const list=["Acceuil","Equipe","Apropos","Contact"];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      
+  <Navbar links={ list.map( el=><span className="liste">  <a    className = "links"   href="#" >   {el}</a></span>)}/>
+
+       <NosValeur />
+       <Reseau/>
+     
     </div>
   );
 }
