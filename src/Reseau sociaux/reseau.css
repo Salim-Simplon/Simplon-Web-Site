@@ -1,0 +1,35 @@
+
+.link{
+    display: flex;
+
+justify-content: space-around;
+
+    
+}
+
+.logo-s{
+    margin-top: 200px;
+    display: grid;
+   justify-content: space-between;
+   padding-top: 20px;
+   line-height: 20px;
+}
+
+.logos{
+    margin-top: 200px;
+    display: grid; 
+  line-height: 20px;
+
+}
+.logoss{
+    margin-top: 200px;
+    display: grid;
+    line-height: 20px;
+  
+}
+
+.paragraph{
+    margin-right: 500px;
+   
+    margin-left: 50px;
+}
