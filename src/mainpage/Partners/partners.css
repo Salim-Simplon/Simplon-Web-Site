@@ -23,6 +23,8 @@
   transition: all 1s;
 }
 .Partners-logos img:hover {
+  height: 150px;
+  width: 150px;
   border-radius: 0;
   filter: opacity(1);
 }
