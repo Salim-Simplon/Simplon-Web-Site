@@ -26,7 +26,7 @@ const staff = [
 
 function Staff() {
   return (
-    <div className="App">
+    <div className="staff"> 
       <Equipe staff={staff} />
     </div>
   );
