@@ -1,0 +1,7 @@
+@media only screen and (max-width: 800px) {
+  .mainPage {
+    box-sizing: border-box;
+    padding: 60px;
+    max-width: 30px;
+  }
+}
