@@ -1,35 +1,19 @@
-
-.link{
-    display: flex;
-
-justify-content: space-around;
-
-    
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  margin-left: 100px;
+  width: 60%;
 }
 
-.logo-s{
-    margin-top: 200px;
-    display: grid;
-   justify-content: space-between;
-   padding-top: 20px;
-   line-height: 20px;
+.logo-s {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.logos{
-    margin-top: 200px;
-    display: grid; 
-  line-height: 20px;
-
-}
-.logoss{
-    margin-top: 200px;
-    display: grid;
-    line-height: 20px;
-  
-}
-
-.paragraph{
-    margin-right: 500px;
-   
-    margin-left: 50px;
+.paragraph {
+  width: 60%;
+  margin-left: 100px;
 }

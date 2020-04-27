@@ -21,9 +21,11 @@ function Follow() {
       <div className="espace">Horaires d'ouverture :</div>
       <div> de lundi à vendredi </div>
       <div> de 9h à 17h</div>
-      <div><a href="#">
-            <img id="logo" src="/images/logo.png" alt="simplon" />
-          </a></div>
+      <div>
+        <a href="#">
+          <img id="logo" src="/images/logo.png" alt="simplon" />
+        </a>
+      </div>
     </div>
   );
 }
@@ -35,6 +37,7 @@ function Letter() {
         <p>Inscrivez-vous à la Newsletter :</p>
         <input type="text" placeholder="exmpl@gmail.com" />
         <button id="btn">Envoyer</button>
+
         <p>Nous suivre :</p>
         <div>
           <a href="https://www.facebook.com/SimplonTunis/">
@@ -45,7 +48,6 @@ function Letter() {
           </a>
         </div>
       </form>
-      
     </div>
   );
 }
