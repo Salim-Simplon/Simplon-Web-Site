@@ -4,7 +4,7 @@ import "./Footer.css";
 function Cont() {
   return (
     <div className="contact">
-      <div className="espace">Téléphone : +216 55 077 406</div>
+      <div className="espace">Téléphone : <br/> +216 55 077 406</div>
       <div>Mail : exmpl@gmail.com</div>
       <div>
         Addresse : Le15,
